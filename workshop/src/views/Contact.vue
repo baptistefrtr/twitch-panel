@@ -3,10 +3,7 @@
     <b-col cols="3"></b-col>
     <b-col cols="6">
       <b-card>
-        <b-card-title> Contact form </b-card-title>
-        <b-card-text style="margin-top: 10%">
-          <p>If you have any issue contact us here.</p>
-        </b-card-text>
+        <b-card-title style="margin-bottom: 5%"> Contact form </b-card-title>
         <b-input-group prepend="Email" class="mt-3">
           <b-form-input v-model="email"></b-form-input>
         </b-input-group>
